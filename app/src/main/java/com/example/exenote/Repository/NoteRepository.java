@@ -1,4 +1,4 @@
-package com.example.exenote;
+package com.example.exenote.Repository;
 
 import android.app.Application;
 import android.util.Log;

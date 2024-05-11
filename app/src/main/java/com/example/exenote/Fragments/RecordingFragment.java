@@ -6,7 +6,6 @@ import android.os.Bundle;
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -17,12 +16,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.exenote.CreateNoteListener;
+import com.example.exenote.Utils.CreateNoteListener;
 import com.example.exenote.DB.Note;
-import com.example.exenote.DeleteNoteListener;
-import com.example.exenote.NoteViewModel;
+import com.example.exenote.Utils.DeleteNoteListener;
+import com.example.exenote.ViewModel.NoteViewModel;
 import com.example.exenote.R;
-import com.example.exenote.UpdateNoteListener;
+import com.example.exenote.Utils.UpdateNoteListener;
 
 public class RecordingFragment extends Fragment implements CreateNoteListener, UpdateNoteListener, DeleteNoteListener {
     private static final String TAG = "RecordingFragment_TAG";

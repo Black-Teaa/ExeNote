@@ -7,9 +7,7 @@ import android.os.Bundle;
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.motion.widget.OnSwipe;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -21,7 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.exenote.NoteViewModel;
+import com.example.exenote.ViewModel.NoteViewModel;
 import com.example.exenote.Utils.ButtonClikacble;
 import com.example.exenote.DB.Note;
 import com.example.exenote.Adapters.NoteListAdapter;
@@ -32,11 +30,7 @@ import com.example.exenote.Utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.disposables.CompositeDisposable;
-import io.reactivex.rxjava3.disposables.Disposable;
-import io.reactivex.rxjava3.functions.Consumer;
-import io.reactivex.rxjava3.schedulers.Schedulers;
 
 public class MainFragment extends Fragment {
     private static final String TAG = "MainFragment_TAG";

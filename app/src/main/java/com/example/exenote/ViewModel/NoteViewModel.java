@@ -1,4 +1,4 @@
-package com.example.exenote;
+package com.example.exenote.ViewModel;
 
 import android.app.Application;
 
@@ -7,6 +7,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import com.example.exenote.DB.Note;
+import com.example.exenote.Repository.NoteRepository;
 
 import java.util.List;
 

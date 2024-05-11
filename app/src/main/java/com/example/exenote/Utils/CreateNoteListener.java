@@ -1,4 +1,4 @@
-package com.example.exenote;
+package com.example.exenote.Utils;
 
 import com.example.exenote.DB.Note;
 

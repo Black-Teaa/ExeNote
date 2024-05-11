@@ -25,7 +25,7 @@ import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
 import com.example.exenote.DB.Note;
 import com.example.exenote.Fragments.RecordingFragment;
-import com.example.exenote.NoteViewModel;
+import com.example.exenote.ViewModel.NoteViewModel;
 import com.example.exenote.R;
 
 import java.util.List;
