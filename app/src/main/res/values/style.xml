@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextInputLayout.Rounded" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+    <item name="boxCornerRadiusBottomEnd">25dp</item>
+    <item name="boxCornerRadiusBottomStart">25dp</item>
+    <item name="boxCornerRadiusTopEnd">25dp</item>
+    <item name="boxCornerRadiusTopStart">25dp</item>
+    <item name="boxBackgroundColor">@android:color/white</item>
+</style>
+</resources>
